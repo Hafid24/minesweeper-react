@@ -1,0 +1,80 @@
+
+.board-head {
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 2px solid #444;
+    border-top: 2px solid #444;
+    border-right: 2px solid #444;
+ }
+    .board-head .reset,
+    .board-head .flag-count,
+    .board-head .timer {
+      width: 55px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+}
+
+.board-head .reset {
+ font-size: 25px; 
+}
+
+.board {
+ border: 2px solid #444;
+ border-bottom: none;
+ }
+.board .row {
+ display: flex;
+ height: 50px;
+ margin: 0px;
+ padding: 0px;
+ }
+.board .row:last-child {
+ border-bottom: none;
+ height: 50px;
+ }
+.board .row .cell {
+ background-color: grey;
+ border: 1.5px solid #444;
+ width: 49px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.board .row .cell.open {
+ background-color: silver;
+}
+          
+.board .row .cell:last-child {
+ border-right: none; 
+}
+ 
+* {
+ margin: 0;
+ padding: 0;
+ }
+  
+  html,
+  body {
+ height: 100%; 
+}
+html #root,
+body #root {
+ height: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+
+html #root .minesweeper,
+body #root .minesweeper {
+ 
+ display: flex;
+ flex-direction: column;
+ height: 592px; 
+}
