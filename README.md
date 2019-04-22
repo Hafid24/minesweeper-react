@@ -1,5 +1,5 @@
 ## Minesweeper game using react
 
- ### [View demo here](https://minesweeper-hafid.surge.sh).
+ ### [View demo here](https://minesweeper-hafid.netlify.com).
 
 
